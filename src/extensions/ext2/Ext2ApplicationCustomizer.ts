@@ -54,10 +54,10 @@ export default class Ext2ApplicationCustomizer
               if (topPlaceholder.domElement){
               topPlaceholder.domElement.innerHTML = `
                   <div class = "${styles.topnav}">
-                  <a class = "${styles.active}" href = "https://dronzer.sharepoint.com/sites/Barcelona/SitePages/Home.aspx">Home</a>
-                  <a href = "https://dronzer.sharepoint.com/sites/Liverpool">News</a>
-                  <a href = "https://dronzer.sharepoint.com/sites/chelsea">About us</a>
-                  <a href = "https://dronzer.sharepoint.com/sites/mancity">Find Mentor</a>
+                  <a class = "${styles.active}" href = "Enter your link">Home</a>
+                  <a href = "Enter your link">News</a>
+                  <a href = "Enter your link">About us</a>
+                  <a href = "Enter your link">Find Mentor</a>
                   </div> 
                   <span class = "${styles.top}">Hello! ${escape(this.context.pageContext.user.displayName)}</span> 
                    `;
