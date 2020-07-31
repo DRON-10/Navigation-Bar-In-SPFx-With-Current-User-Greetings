@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dronzer.sharepoint.com/sites/Barcelona/SitePages/Home.aspx",
+      "customActions": {
+        "716b612c-e184-4ccc-a24e-604a7c837821": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "DRONZER10",
+            "Bottom": "Nilanjan Mukherjee"
+          }
+        }
+      }
+    },
+    "ext2": {
+      "pageUrl": "https://dronzer.sharepoint.com/sites/Barcelona/SitePages/Home.aspx",
+      "customActions": {
+        "716b612c-e184-4ccc-a24e-604a7c837821": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "DRONZER10",
+            "Bottom": "Nilanjan Mukherjee"
+          }
+        }
+      }
+    }
+  }
+}

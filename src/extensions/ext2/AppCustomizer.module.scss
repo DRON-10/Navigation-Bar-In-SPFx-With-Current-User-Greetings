@@ -1,0 +1,50 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.app {
+  .top {
+      height:60px;
+      text-align:center;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $ms-color-themePrimary;
+      color: $ms-color-white;
+
+  }
+
+  .bottom {
+      height:40px;
+      text-align:center;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $ms-color-themePrimary;
+      color: $ms-color-white;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Ext2"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="716b612c-e184-4ccc-a24e-604a7c837821"
+        ClientSideComponentProperties="{&quot;Top&quot;:&quot;DRONZER10&quot;,&quot;Bottom&quot;:&quot;Nilanjan Mukherjee&quot;}">
+    </CustomAction>
+</Elements>
