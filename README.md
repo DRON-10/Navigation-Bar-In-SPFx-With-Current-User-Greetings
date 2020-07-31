@@ -4,7 +4,7 @@
 Navigation Bar In SPFx With Current User GreetingsShort summary on functionality and used technologies.
 
  
- ![navigation Bar](C:\Users\nilan\OneDrive\Desktop\nilanjan\nil.jpg)
+ ![Navigation bar](images/nil.jpg)
 
 
 
