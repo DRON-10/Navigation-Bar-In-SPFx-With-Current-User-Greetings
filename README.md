@@ -4,6 +4,8 @@
 Navigation Bar In SPFx With Current User GreetingsShort summary on functionality and used technologies.
 
  
+ ![navigation Bar](C:\Users\nilan\OneDrive\Desktop\nilanjan\nil.jpg)
+
 
 
 We are using SharePoint extension to create a navigation bar. We are also rendering the greeting of current user.
