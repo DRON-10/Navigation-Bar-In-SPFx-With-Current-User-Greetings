@@ -10,6 +10,7 @@ import { Dialog } from '@microsoft/sp-dialog';
 import * as strings from 'Ext2ApplicationCustomizerStrings';
 import styles from './AppCustomizer.module.scss';
 import { escape } from '@microsoft/sp-lodash-subset';
+import { SPPermission } from '@microsoft/sp-page-context';
 
 const LOG_SOURCE: string = 'Ext2ApplicationCustomizer';
 
@@ -36,6 +37,8 @@ export default class Ext2ApplicationCustomizer
         return Promise.resolve();
   
       }
+
+      
       private _renderPlaceHolders(): void
        {
            const topPlaceholder =
@@ -43,14 +46,16 @@ export default class Ext2ApplicationCustomizer
           PlaceholderName.Top,
            { onDispose: this.onDispose}
            );
-  
+           const admin = this.context.pageContext.web.permissions.hasPermission(SPPermission.enumeratePermissions);
+           console.log(admin);
       
          if (!topPlaceholder) 
          {
            console.error("The expected placeholder (Top) was not found.");
            return;
          }
-  
+  if(admin)
+  {
               if (topPlaceholder.domElement){
               topPlaceholder.domElement.innerHTML = `
                   <div class = "${styles.topnav}">
@@ -63,7 +68,20 @@ export default class Ext2ApplicationCustomizer
                    `;
                    
                }
+              }
 
+              else
+              {
+                if (topPlaceholder.domElement){
+                topPlaceholder.domElement.innerHTML = `
+                    <div class = "${styles.topnav}">
+                    <a class = "${styles.active}" href = "Enter your link">Home</a>}
+                    </div> 
+                    Hello! ${escape(this.context.pageContext.user.displayName)} 
+                     `;
+                     
+                 }
+                }
     
     // Handling the bottom placeholder
     if (!this._bottomPlaceholder) {
