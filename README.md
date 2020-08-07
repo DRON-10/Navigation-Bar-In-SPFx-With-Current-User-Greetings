@@ -8,7 +8,7 @@ Navigation Bar In SPFx With Current User GreetingsShort summary on functionality
  
  For users having Read permission
  
-  ![Navigation bar](images/nil2.jpg)
+  ![Navigation bar](images/nil2.JPG)
 
 
 
