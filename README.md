@@ -5,6 +5,10 @@ Navigation Bar In SPFx With Current User GreetingsShort summary on functionality
 
  
  ![Navigation bar](images/nil.jpg)
+ 
+ For users having Read permission
+ 
+  ![Navigation bar](images/nil2.jpg)
 
 
 
