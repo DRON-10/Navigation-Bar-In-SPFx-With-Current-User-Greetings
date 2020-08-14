@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://dronzer.sharepoint.com/sites/Barcelona/SitePages/Home.aspx",
+      "pageUrl": "enter the site url",
       "customActions": {
         "716b612c-e184-4ccc-a24e-604a7c837821": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -16,7 +16,7 @@
       }
     },
     "ext2": {
-      "pageUrl": "https://dronzer.sharepoint.com/sites/Barcelona/SitePages/Home.aspx",
+      "pageUrl": "enter the site url",
       "customActions": {
         "716b612c-e184-4ccc-a24e-604a7c837821": {
           "location": "ClientSideExtension.ApplicationCustomizer",

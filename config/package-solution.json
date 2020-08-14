@@ -3,7 +3,7 @@
   "solution": {
     "name": "ext-2-client-side-solution",
     "id": "8e90fd7b-a799-4834-82c6-d55b530af66c",
-    "version": "5.0.0.0",
+    "version": "6.0.0.0",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
     "developer": {

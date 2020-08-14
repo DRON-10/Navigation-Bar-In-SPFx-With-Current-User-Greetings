@@ -64,7 +64,7 @@ export default class Ext2ApplicationCustomizer
                   <a href = "Enter your link">About us</a>
                   <a href = "Enter your link">Find Mentor</a>
                   </div> 
-                  Hello! ${escape(this.context.pageContext.user.displayName)} 
+                <span class = "${styles.nil}">  Hello! ${escape(this.context.pageContext.user.displayName)} </span>
                    `;
                    
                }
